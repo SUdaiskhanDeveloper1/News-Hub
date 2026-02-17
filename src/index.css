@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f6f6f6;
+  color: #333;
+  line-height: 1.4;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+:root {
+  --bbc-red: #bb1919;
+  --bbc-dark-red: #990000;
+  --bbc-black: #121212;
+  --bbc-dark-gray: #333;
+  --bbc-gray: #666;
+  --bbc-light-gray: #f6f6f6;
+  --bbc-white: #ffffff;
+  --bbc-border: #e6e6e6;
+}
+
+/* Loading animation */
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loading-spinner {
+  border: 3px solid #f3f3f3;
+  border-top: 3px solid var(--bbc-red);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+  margin: 50px auto;
+}
