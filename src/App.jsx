@@ -1,7 +1,7 @@
 
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import HomePage from './pages/HomePage';
+import HomePage from './pages/Homepage';
 import CategoryPage from './pages/CategoryPage';
 import SearchPage from './pages/SearchPage';
 import './App.css';
@@ -42,7 +42,6 @@ const Footer = () => {
               <h4>Sport</h4>
               <a href="#">Football</a>
               <a href="#">Cricket</a>
-              <a href="#">Rugby</a>
               <a href="#">Tennis</a>
               <a href="#">Hockey</a>
               <a href="#">Golf</a>
@@ -51,6 +50,12 @@ const Footer = () => {
               <h4>Weather</h4>
               <a href="#">UK Weather</a>
               <a href="#">World Weather</a>
+              <a href="#">Asia Weather</a>
+              <a href="#">Europe Weather</a>
+              <a href="#">America Weather</a>
+              <a href="#">Africa Weather</a>
+
+
             </div>
             <div className="footer-section">
               <h4>More</h4>
@@ -62,7 +67,7 @@ const Footer = () => {
           </div>
           <div className="footer-bottom">
             <p>© 2026 Sudais Khan. All Right Reserved </p>
-           
+
           </div>
         </div>
       </div>
